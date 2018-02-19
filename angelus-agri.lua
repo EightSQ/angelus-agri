@@ -147,7 +147,7 @@ local function fieldEndTurn()
 			turtle.turnLeft()
 			position.v = (position.v + 3) % 4
 		end
-
+	end
 end
 
 local function throwItem()
